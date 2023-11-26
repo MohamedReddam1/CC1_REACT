@@ -1,0 +1,86 @@
+#PrimaryDiv{
+    
+}
+
+#CalcBody{
+    width: 600px;
+    border-radius: 20px;
+    background-color: rgb(41, 39, 39);
+    vertical-align: center;
+    box-shadow: 15px 15px 10px rgb(179, 178, 178);
+    
+}
+
+#second{
+    vertical-align: middle;
+    
+}
+
+#input{
+    width: 460px;
+    height: 75px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: right;
+
+}
+
+#clear{
+    width: 340px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    border: 0 ;
+    background-color: rgb(159, 159, 159);
+}
+
+.num{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(26, 24, 24);
+    font-weight: bold;
+    font-size: x-large;
+    border: 0 ;
+}
+
+.LesCalc{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(245, 87, 9);
+    border: 0 ;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#zero{
+    width: 220px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(26, 24, 24);
+    font-weight: bold;
+    font-size: x-large;
+    border: 0 ;
+}
+/* dark-mode.css */
+.dark-mode {
+    background-color: #232323;
+    color: #fff;
+  }
+  
+  /* light-mode.css */
+  .light-mode {
+    background-color: #fff;
+    color: #000;
+  }

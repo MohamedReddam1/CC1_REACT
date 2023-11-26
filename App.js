@@ -5,9 +5,8 @@ import NavBar from './components/NavBar';
 import Calc from './components/Calc (1)';
 import Tp2_react from './components/TP2_REACT';
 import TodoListApp from './components/TodoListApp';
-import Tp4Api from './components/Tp4Api'
+import tp4Api from './components/Tp4Api'
 import Tp6_react from './components/tp6_react';
-
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
           <Route path="/CC1_REACT/Calculator"  element={<Calc/>} />
           <Route path="/CC1_REACT/Slider"  element={<Tp2_react/>} />
           <Route path="/CC1_REACT/TodoListApp"  element={<TodoListApp/>} />
-          <Route path="/CC1_REACT/Products"  element={<Tp4Api/>} />
+          <Route path="/CC1_REACT/Products"  element={<tp4Api/>} />
           <Route path='/CC1_REACT/*' element=
           {<><center>
             <h1 style={{fontSize:'130px', verticalAlign:'middle'}}>404</h1>
